@@ -83,6 +83,7 @@ export default function CreateCard() {
       if (result.error) {
         setError(result.error);
       } else if (result.description) {
+        setProductDescription(result.description);
         setGeneratedDescription(result.description);
       }
     } catch (err) {
@@ -152,7 +153,7 @@ export default function CreateCard() {
                 {/* Product Information */}
                 <Card className="bg-black/50 border-steampunk-bronze backdrop-blur-sm">
                   <CardHeader>
-                    <CardTitle className="text-2xl font-black text-white flex items-center">
+                    <CardTitle className="text-2xl font-black text-black flex items-center">
                       <Settings className="w-6 h-6 mr-3 text-steampunk-brass" />
                       PRODUCT DETAILS
                     </CardTitle>
@@ -169,7 +170,7 @@ export default function CreateCard() {
                         value={productName}
                         onChange={(e) => setProductName(e.target.value)}
                         placeholder="Enter product name..."
-                        className="bg-steampunk-dark/50 border-steampunk-bronze text-white placeholder:text-gray-400 focus:border-steampunk-pink"
+                        className="bg-steampunk-dark/50 border-steampunk-bronze text-black placeholder:text-gray-400 focus:border-steampunk-pink"
                       />
                     </div>
                     <div>
@@ -181,7 +182,7 @@ export default function CreateCard() {
                         onChange={(e) => setProductDescription(e.target.value)}
                         placeholder="Describe your product..."
                         rows={4}
-                        className="bg-steampunk-dark/50 border-steampunk-bronze text-white placeholder:text-gray-400 focus:border-steampunk-pink resize-none"
+                        className="bg-steampunk-dark/50 border-steampunk-bronze text-black placeholder:text-gray-400 focus:border-steampunk-pink resize-none"
                       />
                     </div>
                   </CardContent>
@@ -262,7 +263,7 @@ export default function CreateCard() {
                             setGeneratedDescription(e.target.value)
                           }
                           rows={4}
-                          className="bg-steampunk-dark/50 border-steampunk-bronze text-white focus:border-steampunk-pink resize-none"
+                          className="bg-steampunk-dark/50 border-steampunk-bronze text-black focus:border-steampunk-pink resize-none"
                         />
                       </div>
                     )}
@@ -336,8 +337,7 @@ export default function CreateCard() {
                       </h3>
 
                       <p className="text-steampunk-copper leading-relaxed mb-6">
-                        {generatedDescription ||
-                          productDescription ||
+                        {productDescription ||
                           "Generate or enter a description to see it here..."}
                       </p>
 

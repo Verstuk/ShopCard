@@ -102,7 +102,7 @@ export default async function Dashboard() {
                 {
                   icon: <Crown className="w-8 h-8" />,
                   title: "Upgrade Plan",
-                  description: "Unlock premium /br features",
+                  description: "Unlock premium features",
                   color: "steampunk-bronze",
                   href: "/pricing",
                 },
