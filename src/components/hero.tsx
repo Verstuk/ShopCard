@@ -20,24 +20,24 @@ export default function Hero() {
           <div className="text-center max-w-6xl mx-auto">
             {/* Main headline with dramatic typography */}
             <h1 className="text-6xl sm:text-8xl lg:text-9xl font-black text-white mb-8 tracking-tighter leading-none">
-              CREATE
+              СОЗДАЙ
               <br />
               <span className="text-steampunk-pink text-7xl sm:text-9xl lg:text-[12rem] block -mt-4">
-                STUNNING
+                КРУТУЮ
               </span>
               <span className="text-steampunk-brass text-5xl sm:text-7xl lg:text-8xl block -mt-8">
-                PRODUCT CARDS
+                КАТОЧКУ ТОВАРА
               </span>
             </h1>
 
             <div className="mb-16">
               <p className="text-2xl sm:text-3xl text-steampunk-copper mb-6 font-bold max-w-4xl mx-auto">
-                AI-Powered Steampunk Design Generator
+                Генератор дизайна и описния на основе ИИ
               </p>
               <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                Transform your products into stunning steampunk masterpieces
-                with AI-generated images and compelling descriptions. Bold
-                typography meets vintage industrial aesthetics.
+                Создайте потрясающий карточки товаров для своего
+                интернет-магазина с картинками и убедительным опсанием,
+                созданных с помощью ИИ
               </p>
             </div>
 
@@ -48,14 +48,14 @@ export default function Hero() {
                 className="group inline-flex items-center px-12 py-6 text-white bg-steampunk-pink rounded-xl hover:bg-steampunk-accent transition-all duration-300 text-xl font-black shadow-2xl hover:shadow-steampunk-pink/25 hover:scale-105"
               >
                 <Sparkles className="mr-3 w-6 h-6 group-hover:rotate-12 transition-transform" />
-                START CREATING FREE
+                НАЧАТЬ СОЗДАНИЕ
               </Link>
 
               <Link
                 href="#features"
                 className="inline-flex items-center px-12 py-6 text-steampunk-brass bg-transparent border-2 border-steampunk-brass rounded-xl hover:bg-steampunk-brass hover:text-steampunk-dark transition-all duration-300 text-xl font-black"
               >
-                EXPLORE FEATURES
+                ФИШКИ
               </Link>
             </div>
 
@@ -66,10 +66,10 @@ export default function Hero() {
                   <Image className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-steampunk-brass font-bold text-lg mb-2">
-                  AI Image Generation
+                  ИИ Генерция картинок
                 </h3>
                 <p className="text-gray-400 text-sm">
-                  Create unique steampunk product visuals
+                  Создавайте уникальные визуальные образы товара
                 </p>
               </div>
 
@@ -78,10 +78,10 @@ export default function Hero() {
                   <FileText className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-steampunk-brass font-bold text-lg mb-2">
-                  Smart Descriptions
+                  Умные описания
                 </h3>
                 <p className="text-gray-400 text-sm">
-                  AI-powered compelling product copy
+                  Привлекательный текст о товаре на основе ИИ
                 </p>
               </div>
 
@@ -90,10 +90,10 @@ export default function Hero() {
                   <Download className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-steampunk-brass font-bold text-lg mb-2">
-                  One-Click Export
+                  Экспорт в один клик
                 </h3>
                 <p className="text-gray-400 text-sm">
-                  Download, share, or copy instantly
+                  Мгновенно скачайте, делитесь или копируйте
                 </p>
               </div>
             </div>

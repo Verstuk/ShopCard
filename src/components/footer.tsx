@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Product Column */}
           <div>
             <h3 className="font-black text-steampunk-brass mb-6 text-lg">
-              PRODUCT
+              ПРОДУКТ
             </h3>
             <ul className="space-y-3">
               <li>
@@ -19,7 +19,7 @@ export default function Footer() {
                   href="#features"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Features
+                  Фищки
                 </Link>
               </li>
               <li>
@@ -27,7 +27,7 @@ export default function Footer() {
                   href="#pricing"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Pricing
+                  Цены
                 </Link>
               </li>
               <li>
@@ -35,7 +35,7 @@ export default function Footer() {
                   href="/dashboard"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Card Generator
+                  Генератор карточек
                 </Link>
               </li>
               <li>
@@ -43,7 +43,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  API Access
+                  API доступ
                 </Link>
               </li>
             </ul>
@@ -52,7 +52,7 @@ export default function Footer() {
           {/* Company Column */}
           <div>
             <h3 className="font-black text-steampunk-brass mb-6 text-lg">
-              COMPANY
+              КОМПАНИЯ
             </h3>
             <ul className="space-y-3">
               <li>
@@ -60,7 +60,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  About Us
+                  О нас
                 </Link>
               </li>
               <li>
@@ -68,7 +68,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Blog
+                  Блог
                 </Link>
               </li>
               <li>
@@ -76,7 +76,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Careers
+                  Карьера
                 </Link>
               </li>
               <li>
@@ -84,7 +84,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Press Kit
+                  Подборка материалов
                 </Link>
               </li>
             </ul>
@@ -93,7 +93,7 @@ export default function Footer() {
           {/* Resources Column */}
           <div>
             <h3 className="font-black text-steampunk-brass mb-6 text-lg">
-              RESOURCES
+              РЕСУРСЫ
             </h3>
             <ul className="space-y-3">
               <li>
@@ -101,7 +101,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Documentation
+                  Документация
                 </Link>
               </li>
               <li>
@@ -109,7 +109,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Help Center
+                  Центр помощи
                 </Link>
               </li>
               <li>
@@ -117,7 +117,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Community
+                  Сообщество
                 </Link>
               </li>
               <li>
@@ -125,7 +125,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Status
+                  Статус
                 </Link>
               </li>
             </ul>
@@ -134,7 +134,7 @@ export default function Footer() {
           {/* Legal Column */}
           <div>
             <h3 className="font-black text-steampunk-brass mb-6 text-lg">
-              LEGAL
+              ЗАКОННОСТЬ
             </h3>
             <ul className="space-y-3">
               <li>
@@ -142,7 +142,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Privacy Policy
+                  Политика конфиденциальности
                 </Link>
               </li>
               <li>
@@ -150,7 +150,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Terms of Service
+                  Условия обслуживания
                 </Link>
               </li>
               <li>
@@ -158,7 +158,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Security
+                  Бесзопасность
                 </Link>
               </li>
               <li>
@@ -166,7 +166,7 @@ export default function Footer() {
                   href="#"
                   className="text-gray-400 hover:text-steampunk-pink transition-colors font-medium"
                 >
-                  Cookie Policy
+                  Политика использования файлов cookie
                 </Link>
               </li>
             </ul>
@@ -177,12 +177,12 @@ export default function Footer() {
           <div className="flex items-center gap-3 mb-6 md:mb-0">
             <Cog className="w-6 h-6 text-steampunk-brass" />
             <span className="text-steampunk-brass font-black text-lg">
-              STEAMCRAFT
+              ЭЛЕМЕНТАРНО
             </span>
           </div>
 
-          <div className="text-gray-400 mb-6 md:mb-0 font-medium">
-            © {currentYear} SteamCraft AI. All rights reserved.
+          <div className="flex items-center text-gray-400 mb-6 md:mb-0 font-medium">
+            © {currentYear} Элементарно AI. Все права защищены.
           </div>
 
           <div className="flex space-x-6">

@@ -16,7 +16,7 @@ export default function Navbar() {
           className="flex items-center gap-2 text-2xl font-bold text-steampunk-brass hover:text-steampunk-pink transition-colors"
         >
           <Cog className="w-8 h-8" />
-          <span className="font-black tracking-tight">STEAMCRAFT</span>
+          <span className="font-black tracking-tight">ЭЛЕМЕНТАРНО</span>
         </Link>
         <div className="flex gap-4 items-center">
           {user ? (
@@ -27,7 +27,7 @@ export default function Navbar() {
               >
                 <Button className="bg-steampunk-bronze hover:bg-steampunk-copper text-white font-bold">
                   <Sparkles className="w-4 h-4 mr-2" />
-                  Create Cards
+                  Создай карточку
                 </Button>
               </Link>
               <UserProfile />
@@ -38,13 +38,13 @@ export default function Navbar() {
                 href="/sign-in"
                 className="px-6 py-2 text-sm font-bold text-steampunk-brass hover:text-steampunk-pink transition-colors"
               >
-                Sign In
+                Вход
               </Link>
               <Link
                 href="/sign-up"
                 className="px-6 py-3 text-sm font-bold text-white bg-steampunk-pink rounded-lg hover:bg-steampunk-accent transition-colors shadow-lg"
               >
-                Start Creating
+                Начни творить
               </Link>
             </>
           )}

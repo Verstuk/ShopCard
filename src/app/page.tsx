@@ -40,11 +40,12 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-20">
             <h2 className="text-5xl sm:text-6xl font-black text-white mb-6 tracking-tight">
-              POWERFUL <span className="text-steampunk-pink">AI FEATURES</span>
+              ФИШКИ{" "}
+              <span className="text-steampunk-pink">ИИ КАТОЧЕК ТОВАРА</span>
             </h2>
             <p className="text-xl text-steampunk-copper max-w-3xl mx-auto font-medium">
-              Revolutionary steampunk design tools powered by cutting-edge
-              artificial intelligence
+              Революционные инструменты для оригинального дизайна на основе
+              новейшего искусственного интеллекта
             </p>
           </div>
 
@@ -52,44 +53,42 @@ export default function Home() {
             {[
               {
                 icon: <Sparkles className="w-8 h-8" />,
-                title: "AI Image Generation",
+                title: "ИИ Генератор изображений",
                 description:
-                  "Create stunning steampunk product visuals with advanced AI technology",
+                  "Создавайте потрясающие визуальные образы в оригинальном стиле с помощью передовых технологий искусственного интеллекта",
                 color: "steampunk-pink",
               },
               {
                 icon: <Palette className="w-8 h-8" />,
-                title: "Custom Aesthetics",
-                description:
-                  "Personalize every element with vintage industrial design options",
+                title: "Индивидуальная эстетика",
+                description: "Исключительно уникальный и индивидуальный подход",
                 color: "steampunk-brass",
               },
               {
                 icon: <Zap className="w-8 h-8" />,
-                title: "Smart Descriptions",
+                title: "Умные описания",
                 description:
-                  "AI-powered compelling product copy that converts visitors",
+                  "Привлекательный текст о товаре на основе ИИ, который привлекает посетителей",
                 color: "steampunk-copper",
               },
               {
                 icon: <Download className="w-8 h-8" />,
-                title: "One-Click Export",
+                title: "Export в один клик",
                 description:
-                  "Download images, share to social, or copy HTML/CSS instantly",
+                  "Мгновенно загружайте изображения, делитесь ими в соцсетях или копируйте HTML/CSS",
                 color: "steampunk-bronze",
               },
               {
                 icon: <Cog className="w-8 h-8" />,
-                title: "Responsive Design",
+                title: "Адаптивный дизайн",
                 description:
-                  "Perfect display across desktop, tablet, and mobile devices",
+                  "Идеальное отображение на настольных компьютерах, планшетах и мобильных устройствах",
                 color: "steampunk-pink",
               },
               {
                 icon: <Crown className="w-8 h-8" />,
-                title: "Premium Templates",
-                description:
-                  "Access exclusive steampunk card designs and layouts",
+                title: "Premium шаблоны",
+                description: "Эксклюзивные дизайны и макеты карточек",
                 color: "steampunk-brass",
               },
             ].map((feature, index) => (
@@ -126,10 +125,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-20">
             <h2 className="text-5xl sm:text-6xl font-black text-white mb-6 tracking-tight">
-              CHOOSE YOUR <span className="text-steampunk-pink">PLAN</span>
+              ВЫБЕРИ СВОЙ <span className="text-steampunk-pink">ПЛАН</span>
             </h2>
             <p className="text-xl text-steampunk-copper max-w-3xl mx-auto font-medium">
-              Unlock the full power of AI-driven steampunk design creation
+              Раскройте весь потенциал создания дизайна с помощью ИИ
             </p>
           </div>
 
@@ -141,22 +140,22 @@ export default function Home() {
                   <Wrench className="w-8 h-8 text-white" />
                 </div>
                 <CardTitle className="text-3xl font-black text-white mb-2">
-                  STARTER
+                  НАЧАЛЬНЫЙ
                 </CardTitle>
                 <div className="text-5xl font-black text-steampunk-brass mb-2">
                   FREE
                 </div>
                 <CardDescription className="text-gray-400">
-                  Perfect for trying out our platform
+                  Идеально подходит для тестирования нашей платформы
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3">
                   {[
-                    "5 AI-generated cards per month",
-                    "Basic steampunk templates",
-                    "Standard export options",
-                    "Community support",
+                    "5 AI-генераций карточек каждый месяц",
+                    "Базовый шаблон",
+                    "Стандартные опции экспорта",
+                    "Поддержка сообщества",
                   ].map((feature, i) => (
                     <div key={i} className="flex items-center gap-3">
                       <Star className="w-5 h-5 text-steampunk-brass" />
@@ -165,7 +164,7 @@ export default function Home() {
                   ))}
                 </div>
                 <Button className="w-full bg-steampunk-bronze hover:bg-steampunk-copper text-white font-bold py-3 mt-8">
-                  Get Started Free
+                  Начни с Free
                 </Button>
               </CardContent>
             </Card>
@@ -174,7 +173,7 @@ export default function Home() {
             <Card className="bg-black/50 border-steampunk-pink hover:border-steampunk-accent transition-all duration-300 scale-105 relative">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                 <div className="bg-steampunk-pink text-white px-6 py-2 rounded-full text-sm font-bold">
-                  MOST POPULAR
+                  ПОПУЛЯРНЫЙR
                 </div>
               </div>
               <CardHeader className="text-center pb-8 pt-8">
@@ -185,21 +184,21 @@ export default function Home() {
                   PRO
                 </CardTitle>
                 <div className="text-5xl font-black text-steampunk-pink mb-2">
-                  $29
+                  2500₽
                 </div>
                 <CardDescription className="text-gray-400">
-                  per month
+                  в месяц
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3">
                   {[
-                    "Unlimited AI-generated cards",
-                    "Premium steampunk templates",
-                    "Advanced customization options",
-                    "Priority support",
-                    "Commercial usage rights",
-                    "Export to all formats",
+                    "Безлимитная AI-генерация карточек",
+                    "Премиум шаблоны",
+                    "Расширенные возможности настройки",
+                    "Приоритетная поддержка",
+                    "Права на коммерческое использование",
+                    "Экспорт в все форматы",
                   ].map((feature, i) => (
                     <div key={i} className="flex items-center gap-3">
                       <Star className="w-5 h-5 text-steampunk-pink" />
@@ -208,7 +207,7 @@ export default function Home() {
                   ))}
                 </div>
                 <Button className="w-full bg-steampunk-pink hover:bg-steampunk-accent text-white font-bold py-3 mt-8">
-                  Start Pro Trial
+                  Начни в PRO
                 </Button>
               </CardContent>
             </Card>
@@ -223,21 +222,20 @@ export default function Home() {
                   ENTERPRISE
                 </CardTitle>
                 <div className="text-5xl font-black text-steampunk-brass mb-2">
-                  $99
+                  8500₽
                 </div>
                 <CardDescription className="text-gray-400">
-                  per month
+                  в месяц
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3">
                   {[
-                    "Everything in Pro",
-                    "Custom brand integration",
-                    "API access",
-                    "Dedicated account manager",
-                    "White-label solutions",
-                    "24/7 premium support",
+                    "Все функции PRO",
+                    "Индивидуальная интеграция с брендом",
+                    "API доступ",
+                    "Специальный менеджер по работе с клиентами",
+                    "24/7 premium поддержки",
                   ].map((feature, i) => (
                     <div key={i} className="flex items-center gap-3">
                       <Star className="w-5 h-5 text-steampunk-brass" />
@@ -246,7 +244,7 @@ export default function Home() {
                   ))}
                 </div>
                 <Button className="w-full bg-steampunk-brass hover:bg-steampunk-copper text-white font-bold py-3 mt-8">
-                  Contact Sales
+                  Свяжитесь с отделом продаж
                 </Button>
               </CardContent>
             </Card>
@@ -258,18 +256,19 @@ export default function Home() {
       <section className="py-32 bg-gradient-to-b from-steampunk-dark to-black">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-5xl sm:text-6xl font-black text-white mb-8 tracking-tight">
-            READY TO CREATE <span className="text-steampunk-pink">MAGIC?</span>
+            ГОТОВ ТВОРИТЬ <span className="text-steampunk-pink">МАГИЮ?</span>
           </h2>
           <p className="text-xl text-steampunk-copper mb-12 max-w-3xl mx-auto font-medium">
-            Join thousands of creators who are already crafting stunning
-            steampunk product cards with our AI-powered platform.
+            Присоединяйтесь к тысячам авторов, которые уже создают потрясающие
+            карточки товаров с помощью нашей платформы на базе искусственного
+            интеллекта.
           </p>
           <Link
             href="/dashboard"
             className="inline-flex items-center px-12 py-6 text-white bg-steampunk-pink rounded-xl hover:bg-steampunk-accent transition-all duration-300 text-xl font-black shadow-2xl hover:shadow-steampunk-pink/25 hover:scale-105"
           >
             <Sparkles className="mr-3 w-6 h-6" />
-            START CREATING NOW
+            НАЧНИ ТВОРИТЬ
             <ArrowUpRight className="ml-3 w-6 h-6" />
           </Link>
         </div>

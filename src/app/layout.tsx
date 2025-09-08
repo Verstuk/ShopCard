@@ -29,10 +29,7 @@ export default function RootLayout({
           {children}
           <TempoInit />
         </ThemeProvider>
-        <Script
-          src="https://api.tempo.build/proxy-asset?url=https://storage.googleapis.com/tempo-public-assets/error-handling.js"
-          strategy="lazyOnload"
-        />
+        {/* <Script src="https://api.tempo.build/proxy-asset?url=https://storage.googleapis.com/tempo-public-assets/error-handling.js" /> [deprecated] */}
       </body>
     </html>
   );
